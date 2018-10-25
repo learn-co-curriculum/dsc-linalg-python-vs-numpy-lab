@@ -79,11 +79,7 @@ print('Numpy Time:', time_spent, 'sec.')
 ### Your comments 
 
 ```
-Numpy is much faster than pure python 
 
-NumPy provides support for large multidimensional arrays and matrices along with a collection of mathematical functions to operate on these elements. 
-
-Numpy relies on well-known packages implemented in other languages (like Fortran) to perform efficient computations, bringing the user both the expressiveness of Python and a performance similar to MATLAB or Fortran.
 ```
 
 ## Summary
