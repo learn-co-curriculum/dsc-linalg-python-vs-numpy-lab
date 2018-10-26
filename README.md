@@ -1,5 +1,5 @@
 
-# Numpy vs. Pure Python - Lab
+# Pure Python vs. Numpy - Lab
 
 ## Introduction 
 
@@ -7,7 +7,7 @@ Numpy, Scipy and Pandas libraries provide a significant increase in computationa
 
 ## Objectives
 You will be able to:
-* Compare the performance of high dimensional matrix operations in Numpy vs. pure Python. 
+* Compare the performance of high dimensional matrix operations in Numpy vs. pure Python
 
 ## Problem
 > **Write a routine to calculate the dot product between two 200 x 200 dimensional matrices using:**
@@ -79,7 +79,6 @@ print('Numpy Time:', time_spent, 'sec.')
 ### Your comments 
 
 ```
-
 ```
 
 ## Summary
