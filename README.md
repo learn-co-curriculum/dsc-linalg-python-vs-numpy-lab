@@ -63,7 +63,7 @@ print('Pure Python Time:', time_spent, 'sec.')
 
 
 ## Numpy 
-Set the timer and calculate the time taken by `.dot()` function for multiplying A and B 
+Set the timer and calculate the time taken by `.dot()` function for multiplying $A$ and $B$ 
 
 
 
@@ -89,4 +89,4 @@ print('Numpy Time:', time_spent, 'sec.')
 
 ## Summary
 
-In this lab, we performed a quick comparison between calculating a dot product in numpy vs python built in function. We saw that Numpy is computationally much more efficient that Python code due to highly sophisticated implementation of Numpy source code. You are encouraged to always perform such tests to fully appreciate the use of an additional library in Python. 
+In this lab, you performed a quick comparison between calculating a dot product in Numpy vs Python built in function. You saw that Numpy is computationally much more efficient that Python code because of the sophisticated implementation of Numpy source code. You're encouraged to always perform time tests to fully appreciate the use of an additional library in Python. 
