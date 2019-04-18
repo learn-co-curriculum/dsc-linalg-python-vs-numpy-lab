@@ -3,21 +3,22 @@
 
 ## Introduction 
 
-Numpy, Scipy and Pandas libraries provide a significant increase in computational efficiency with complex mathematical operations as compared to Python's built in arithmatic functions.  In this lab we shall calculate and compare the processing speed required for calculating a dot product both using basic arithmatic operations in Python and Numpy's `.dot()` method. 
+Numpy, Scipy and Pandas provide a significant increase in computational efficiency with complex mathematical operations as compared to Python's built in arithmetic functions. In this lab, you'll shall calculate and compare the processing speed required for calculating a dot product both using basic arithmetic operations in Python and Numpy's `.dot()` method. 
 
 ## Objectives
 You will be able to:
-* Compare the performance of high dimensional matrix operations in Numpy vs. pure Python
+* Compare the performance of high-dimensional matrix operations in Numpy vs. pure Python
 
-## Problem
-> **Write a routine to calculate the dot product between two 200 x 200 dimensional matrices using:**
+## Problem 
 
-> **a) Pure Python**
+Write a routine to calculate the dot product between two $200 \times 200$ dimensional matrices using:
 
-> **b) Numpy's `.dot()`**
+a) Pure Python (no libraries)
+
+b) Numpy's `.dot()`
 
 
-### Create two 200 x 200 matrices in Python and fill them with random values using `np.random.rand()` 
+### Create two $200 \times 200$ matrices in Python and fill them with random values using `np.random.rand()` 
 
 
 ```python
@@ -30,15 +31,19 @@ A = np.random.rand(SIZE,SIZE)
 B = np.random.rand(SIZE,SIZE)
 ```
 
-### Pure Python
+## Pure Python
 
-* Initialize an zeros filled numpy matrix with necessary rows and columns for storing result. 
-* In Python Calculate the dot product using the formula 
-![](formula.png)
-* Use Python's `timeit` library to calculate the processing time. 
-* [Visit this link](https://www.pythoncentral.io/time-a-python-function/) for an indepth explanation on how to time a function or routine in python. 
+* Initialize a zeros-filled `numpy` matrix
+* In Python, calculate the dot product using the formula 
 
-**Hint**: Use nested for loop for accessing, calculating and storing each scalar value in the result matrix.
+
+$$ \large C_{i,j}= \sum_k A_{i,k}B_{k,j}$$
+
+
+* Use Python's `timeit` library to calculate the processing time
+* [Visit this link](https://www.pythoncentral.io/time-a-python-function/) for an in-depth explanation on how to time a function or routine in python
+
+**Hint**: Use a nested for loop for accessing, calculating and storing each scalar value in the resulting matrix
 
 
 ```python
