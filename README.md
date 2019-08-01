@@ -97,7 +97,7 @@ time_spent = timeit.default_timer() - start
 print('Pure Python Time:', time_spent, 'sec.')
 ```
 
-    Pure Python Time: 4.337618543067947 sec.
+    Pure Python Time: 4.7297771129524335 sec.
 
 
 ## Numpy 
@@ -116,7 +116,7 @@ time_spent = None
 print('Numpy Time:', time_spent, 'sec.')
 ```
 
-    Numpy Time: 0.0007913659792393446 sec.
+    Numpy Time: None sec.
 
 
 
@@ -132,7 +132,7 @@ time_spent = timeit.default_timer() - start
 print('Numpy Time:', time_spent, 'sec.')
 ```
 
-    Numpy Time: 0.0006324420683085918 sec.
+    Numpy Time: 0.0055928719229996204 sec.
 
 
 ### Your comments
