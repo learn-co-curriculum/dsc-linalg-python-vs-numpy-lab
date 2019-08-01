@@ -78,7 +78,7 @@ time_spent = None
 print('Numpy Time:', time_spent, 'sec.')
 ```
 
-    Numpy Time: 0.0007913659792393446 sec.
+    Numpy Time: None sec.
 
 
 ### Your comments
