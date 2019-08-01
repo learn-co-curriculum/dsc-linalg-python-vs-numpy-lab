@@ -97,7 +97,7 @@ time_spent = timeit.default_timer() - start
 print('Pure Python Time:', time_spent, 'sec.')
 ```
 
-    Pure Python Time: 4.917119136007386 sec.
+    Pure Python Time: 4.337618543067947 sec.
 
 
 ## Numpy 
@@ -116,7 +116,7 @@ time_spent = None
 print('Numpy Time:', time_spent, 'sec.')
 ```
 
-    Numpy Time: None sec.
+    Numpy Time: 0.0007913659792393446 sec.
 
 
 
@@ -132,13 +132,23 @@ time_spent = timeit.default_timer() - start
 print('Numpy Time:', time_spent, 'sec.')
 ```
 
-    Numpy Time: 0.001027324004098773 sec.
+    Numpy Time: 0.0006324420683085918 sec.
 
 
-### Your comments 
+### Your comments
 
 
-```
+```python
+# __SOLUTION__
+# Your comments:
+
+# Numpy is much faster than pure python 
+
+# NumPy provides support for large multidimensional arrays and matrices 
+# along with a collection of mathematical functions to operate on these elements. 
+
+# Numpy relies on well-known packages implemented in other languages (like Fortran) to perform efficient computations, 
+# bringing the user both the expressiveness of Python and a performance similar to MATLAB or Fortran.
 ```
 
 ## Summary
