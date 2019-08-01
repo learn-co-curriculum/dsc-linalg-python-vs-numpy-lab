@@ -30,6 +30,18 @@ A = None
 B = None
 ```
 
+
+```python
+# __SOLUTION__ 
+##### Compare 200x200 matrix-matrix multiplication speed
+import numpy as np
+# Set up the variables
+
+SIZE = 200
+A = np.random.rand(SIZE,SIZE)
+B = np.random.rand(SIZE,SIZE)
+```
+
 ## Pure Python
 
 * Initialize a zeros-filled `numpy` matrix
@@ -62,6 +74,32 @@ print('Pure Python Time:', time_spent, 'sec.')
     Pure Python Time: None sec.
 
 
+
+```python
+# __SOLUTION__ 
+import timeit
+
+# Start the timer
+start = timeit.default_timer()
+
+# Matrix multiplication in pure Python
+
+out2 = np.zeros((SIZE,SIZE))
+
+for i in range(SIZE):
+  for j in range(SIZE):
+    for k in range(SIZE):
+      
+        out2[i,k] += A[i,j]*B[j,k]
+
+time_spent = timeit.default_timer() - start
+
+print('Pure Python Time:', time_spent, 'sec.')
+```
+
+    Pure Python Time: 4.917119136007386 sec.
+
+
 ## Numpy 
 Set the timer and calculate the time taken by `.dot()` function for multiplying $A$ and $B$ 
 
@@ -79,6 +117,22 @@ print('Numpy Time:', time_spent, 'sec.')
 ```
 
     Numpy Time: None sec.
+
+
+
+```python
+# __SOLUTION__ 
+# start the timer
+start = timeit.default_timer()
+
+# Matrix multiplication in numpy
+out1 = A.dot(B)
+
+time_spent = timeit.default_timer() - start
+print('Numpy Time:', time_spent, 'sec.')
+```
+
+    Numpy Time: 0.001027324004098773 sec.
 
 
 ### Your comments 
