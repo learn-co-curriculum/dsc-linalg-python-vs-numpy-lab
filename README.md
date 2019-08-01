@@ -3,7 +3,7 @@
 
 ## Introduction 
 
-Numpy, Scipy and Pandas provide a significant increase in computational efficiency with complex mathematical operations as compared to Python's built in arithmetic functions. In this lab, you'll shall calculate and compare the processing speed required for calculating a dot product both using basic arithmetic operations in Python and Numpy's `.dot()` method. 
+Numpy, Scipy and Pandas provide a significant increase in computational efficiency with complex mathematical operations as compared to Python's built in arithmetic functions. In this lab, you will calculate and compare the processing speed required for calculating a dot product using both basic arithmetic operations in Python and Numpy's `.dot()` method. 
 
 ## Objectives
 You will be able to:
@@ -67,7 +67,7 @@ time_spent = timeit.default_timer() - start
 print('Pure Python Time:', time_spent, 'sec.')
 ```
 
-    Pure Python Time: 4.917119136007386 sec.
+    Pure Python Time: 4.337618543067947 sec.
 
 
 ## Numpy 
@@ -86,17 +86,22 @@ time_spent = timeit.default_timer() - start
 print('Numpy Time:', time_spent, 'sec.')
 ```
 
-    Numpy Time: 0.001027324004098773 sec.
+    Numpy Time: 0.0006324420683085918 sec.
 
 
-### Your comments 
+### Your comments
 
-```
-Numpy is much faster than pure python 
 
-NumPy provides support for large multidimensional arrays and matrices along with a collection of mathematical functions to operate on these elements. 
+```python
+# Your comments:
 
-Numpy relies on well-known packages implemented in other languages (like Fortran) to perform efficient computations, bringing the user both the expressiveness of Python and a performance similar to MATLAB or Fortran.
+# Numpy is much faster than pure python 
+
+# NumPy provides support for large multidimensional arrays and matrices 
+# along with a collection of mathematical functions to operate on these elements. 
+
+# Numpy relies on well-known packages implemented in other languages (like Fortran) to perform efficient computations, 
+# bringing the user both the expressiveness of Python and a performance similar to MATLAB or Fortran.
 ```
 
 ## Summary
