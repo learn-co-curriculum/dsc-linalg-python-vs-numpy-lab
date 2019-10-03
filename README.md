@@ -3,7 +3,7 @@
 
 ## Introduction 
 
-Numpy, Scipy and Pandas provide a significant increase in computational efficiency with complex mathematical operations as compared to Python's built in arithmetic functions. In this lab, you will calculate and compare the processing speed required for calculating a dot product using both basic arithmetic operations in Python and Numpy's `.dot()` method. 
+Numpy, Scipy and, Pandas provide a significant increase in computational efficiency with complex mathematical operations as compared to Python's built-in arithmetic functions. In this lab, you will calculate and compare the processing speed required for calculating a dot product using both basic arithmetic operations in Python and Numpy's `.dot()` method. 
 
 ## Objectives
 You will be able to:
@@ -106,4 +106,4 @@ print('Numpy Time:', time_spent, 'sec.')
 
 ## Summary
 
-In this lab, you performed a quick comparison between calculating a dot product in Numpy vs Python built in function. You saw that Numpy is computationally much more efficient that Python code because of the sophisticated implementation of Numpy source code. You're encouraged to always perform time tests to fully appreciate the use of an additional library in Python. 
+In this lab, you performed a quick comparison between calculating a dot product in Numpy vs Python built-in function. You saw that Numpy is computationally much more efficient than Python code because of the sophisticated implementation of Numpy source code. You're encouraged to always perform time tests to fully appreciate the use of an additional library in Python. 
